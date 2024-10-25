@@ -1,0 +1,113 @@
+.meg-wrap {
+    display: flex;
+    padding: 20px;
+    column-gap: 30px;
+}
+.msg-user {
+    width: 30%;
+    background: rgb(207, 209, 219);
+    height: 680px;
+}
+.msg-user-wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.msg-user .list-head {
+    margin-top: 0px;
+    padding: 15px 20px;
+    color: aliceblue;
+    background-color:#5F35F5;
+    font-size: 25px;
+}
+.msg-user-item {
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+.msg-user-item:hover{
+background-color: rgba(0, 255, 255, 0.242);
+}
+.msg-box-body {
+    width: 70%;
+    background: transparent;
+    height: 680px;
+    border: 1px solid rgb(78, 76, 76);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.userinfobox {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.msgimg {
+    margin-top: 25px;
+}
+.msg-box-heading{
+    background-color: blueviolet;
+}
+
+.active-msg{
+    padding: 15px 30px;
+    color: aliceblue;
+}
+.msg-main{
+    margin: 20px;
+    gap: 20px;
+}
+.sendmsg{
+    display: flex;
+    justify-content: flex-end;
+}
+.sendmsg p{
+    background-color: #5F35F5;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.receivedmsg p{
+    background-color: #000000;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.msg-footer{
+    background-color: rgba(138, 138, 244, 0.686);
+    width: 100%;
+    height: 70px;
+    padding: 10px 20px;
+}
+.msg-input{
+    width: 60%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.msgsendbtn{
+    height: 100%;
+    padding: 0 30px;
+    background-color: white;
+    border-radius:5px ;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 20px;
+    border: none;
+}
